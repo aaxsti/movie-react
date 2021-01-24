@@ -1,0 +1,50 @@
+.navbarBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 920px;
+    height: 65px;
+    background: #A7B9BA;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+.navbarMenu ul {
+    padding: 0;
+}
+
+.navbarMenu ul li{
+    display: inline;
+    padding-right: 90px;
+}
+
+.navbarMenu ul li:last-child{
+    padding-right: 0;
+}
+
+/*.navbarMenu {*/
+/*    margin: 0 auto;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.navbarMenu ul {*/
+
+/*}*/
+
+/*.navbarMenu:before {*/
+/*    content: '';*/
+/*    display: inline-block;*/
+/*    height: 100%;*/
+/*    vertical-align: middle;*/
+/*}*/
+
+
+
+/*.navbarMenu li{*/
+/*    display: inline-block;*/
+/*    vertical-align: middle;*/
+/*    padding-right: 90px;*/
+/*}*/
+
