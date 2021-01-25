@@ -1,6 +1,6 @@
 import style from './Footer.module.css';
 
-let Navbar = () => {
+const Footer = () => {
     return (
         <div className={style.footerContent}>
             Footer
@@ -8,4 +8,4 @@ let Navbar = () => {
     );
 }
 
-export default Navbar;
+export default Footer;

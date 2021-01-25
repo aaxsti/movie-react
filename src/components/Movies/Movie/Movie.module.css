@@ -1,0 +1,15 @@
+.movieBlock {
+    border: 2px black solid;
+    width: 750px;
+    margin-top: 30px;
+}
+
+.moviePictureWrapper {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+
+.moviePicture {
+    height: 130px;
+}
