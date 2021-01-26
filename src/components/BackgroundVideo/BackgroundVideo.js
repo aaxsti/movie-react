@@ -15,7 +15,7 @@ const BackgroundVideo = () => {
                 transform: "translate(-50%, -50%)",
                 zIndex: "-1",
 
-                filter: "blur(10px)"
+                // filter: "blur(10px)"
             }}>
                 <source src={backgroundVideo} type="video/mp4"/>
             </video>

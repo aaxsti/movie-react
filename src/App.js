@@ -23,7 +23,6 @@ const App = () => {
                     <Route path='/about' render={() => <div>About us</div>}/>
                 </div>
             </div>
-
         </div>
     )
 }

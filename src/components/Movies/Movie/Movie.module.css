@@ -1,15 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Quicksand&family=Roboto&display=swap');
+
+
 .movieBlock {
-    border: 2px black solid;
+    /*border: 2px black solid;*/
     width: 750px;
     margin-top: 30px;
+    overflow: hidden;
+}
+
+.inlineDiv {
+    float: left;
+}
+
+.movieInfo {
+    border-left-color: #242222; /* Цвет линии слева */
+    border-left-style: solid; /* Стиль линии */
+    border-left-width: 2px; /* Толщина линии */
+    margin-left: 50px;
+    padding-left: 50px;
+
 }
 
 .moviePictureWrapper {
-    width: 130px;
+    width: 1000%;
     height: 130px;
     overflow: hidden;
 }
 
 .moviePicture {
     height: 130px;
+}
+
+.movieTitle {
+    padding-bottom: 5px;
+    margin: 0;
+    font-family: 'Questrial', sans-serif;
+}
+
+.button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    background-color: #A6AAB4;
+    height: 30px;
 }
