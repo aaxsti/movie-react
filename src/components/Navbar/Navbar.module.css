@@ -9,8 +9,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-
-
 }
 
 .navbarMenu ul {
@@ -40,12 +38,14 @@
 
 .navbarMenu ul li a:hover {
     background-size: 100% 1px;
-    color: #006265;
+    /*color: white;*/
+    /*color: #006265;*/
 }
 
 .navbarMenu ul li a.activeLink {
     outline: none;
-    color: #006265;
+    /*color: white;*/
+    /*color: #006265;*/
     background-size: 100% 1px;
 }
 

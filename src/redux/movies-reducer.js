@@ -5,7 +5,7 @@ let initialState = {
             movieTitle: 'Dogville',
             director: 'Lars von Trier',
             premiereDate: '2003-03-21',
-            imageSrc: 'https://sun9-52.userapi.com/impg/npbO2jennMuYF8AJwoXWJz-3nnodqKnk4lXIZQ/s70BfOxgImk.jpg?size=940x942&quality=96&proxy=1&sign=e26cdb0dc4eeae86a9ccac9ee1afb108&type=album',
+            imageSrc: 'https://drive.google.com/file/d/1F-RBMT218x8fnQ_31p0xCo9z96wFX8in/view?usp=sharing',
             cast: ['Nicole Kidman', 'Harriet Andersson', 'Lauren Bacall']
         },
         {
@@ -13,7 +13,7 @@ let initialState = {
             movieTitle: 'Climax',
             director: 'Gaspar Noe',
             premiereDate: '2018-09-19',
-            imageSrc: 'https://sun9-62.userapi.com/impg/6boczUagW_gQgJDf5mg_ppsuXojtU_dwXqPNfA/zOq5xrWTddU.jpg?size=720x720&quality=96&proxy=1&sign=49393bdfb69c2eeb89f7b29e756c8d8f&type=album',
+            imageSrc: 'https://live.staticflickr.com/65535/50907801702_566b8d5379_b.jpg',
             cast: ['Sofia Boutella', 'Romain Guillermic', 'Kiddy Smile']
         },
         {

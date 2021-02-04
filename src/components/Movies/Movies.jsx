@@ -1,19 +1,24 @@
 import React from 'react';
 import style from './Movies.module.css';
 import Movie from "./Movie/Movie";
+import SearchBar from "../SearchBar/SearchBar";
+
 
 const Movies = (props) => {
-    let moviesElements = props.movies.map(m => <Movie
-        movieTitle={m.movieTitle}
-        director={m.director}
-        premiereDate={m.premiereDate}
-        imageSrc={m.imageSrc}
-        cast={m.cast}/>)
+    // let moviesElements = props.movies.map(m => <Movie
+    //     movieTitle={m.title}
+    //     director={m.director}
+    //     premiereDate={m.released}
+    //     imageSrc={m.poster}
+    //     cast={m.actors}/>)
 
     return (
-        <div className={style.moviesBlock}>
-            {moviesElements}
-        </div>
+        <SearchBar/>
+
+        // <div className={style.moviesBlock}>
+        //     {/*<SearchBar/>*/}
+        //     {/*{moviesElements}*/}
+        // </div>
     );
 }
 

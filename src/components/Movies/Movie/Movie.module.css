@@ -24,7 +24,6 @@
 
 .moviePictureWrapper {
     width: 1000%;
-    height: 130px;
     overflow: hidden;
 }
 
@@ -42,7 +41,7 @@
     font-size: 16px;
     border: none;
     outline: none;
-    font-family: "Roboto", sans-serif;
-    background-color: #A6AAB4;
-    height: 30px;
+    font-family: "Questrial", sans-serif;
+    background-color: #C4C4C4;
+    height: 27px;
 }

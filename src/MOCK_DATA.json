@@ -1,0 +1,581 @@
+[
+  {
+    "id": 1,
+    "title": "Dogville",
+    "year": "2003",
+    "released": "3 Jul 2003",
+    "runtime": "178 min",
+    "tagline": "A quiet little town not far from here",
+    "Genre": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Lars von Trier",
+    "writers": [
+      "Lars von Trier"
+    ],
+    "actors": [
+      "Nicole Kidman",
+      "Harriet Andersson",
+      "Lauren Bacall",
+      "Jean-Marc Barr"
+    ],
+    "plot": "A woman on the run from the mob is reluctantly accepted in a small Colorado community in exchange for labor, but when a search visits the town she finds out that their support has a price.",
+    "Language": "English",
+    "Country": "Denmark",
+    "awards": "21 wins & 32 nominations",
+    "poster": "https://live.staticflickr.com/65535/50907670881_ab7daec4cb_b.jpg",
+    "rating": "8.0"
+  },
+  {
+    "id": 2,
+    "title": "Climax",
+    "year": "2018",
+    "released": "11 Oct 2018",
+    "runtime": "97 min",
+    "tagline": "Des Danseurs, Une Fete, Des Vinyles, Une Sangria",
+    "Genre": [
+      "Drama",
+      "Horror",
+      "Music"
+    ],
+    "director": "Gaspar Noé",
+    "writers": [
+      "Gaspar Noé"
+    ],
+    "actors": [
+      "Sofia Boutella",
+      "Romain Guillermic",
+      "Souheila Yacoub",
+      "Kiddy Smile"
+    ],
+    "plot": "French dancers gather in a remote, empty school building to rehearse on a wintry night. The all-night celebration morphs into a hallucinatory nightmare when they learn their sangria is laced with LSD.",
+    "Language": "French",
+    "Country": "France",
+    "awards": "5 wins & 8 nominations",
+    "poster": "https://live.staticflickr.com/65535/50907801702_566b8d5379_b.jpg",
+    "rating": "7.1"
+  },
+  {
+    "id": 3,
+    "title": "High and Low",
+    "year": "1963",
+    "released": "1 Mar 1963",
+    "runtime": "143 min",
+    "tagline": "142 Screenful Minutes of Thrills and Suspense!",
+    "Genre": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Akira Kurosawa",
+    "writers": [
+      "Hideo Oguni",
+      "Ryûzô Kikushima"
+    ],
+    "actors": [
+      "Toshirô Mifune",
+      "Tatsuya Nakadai",
+      "Kyôko Kagawa",
+      "Tatsuya Mihashi"
+    ],
+    "plot": "An executive of a shoe company becomes a victim of extortion when his chauffeur's son is kidnapped and held for ransom.",
+    "Language": "Japanese",
+    "Country": "Japan",
+    "awards": "Nominated for 1 Golden Globe. Another 3 wins & 2 nominations",
+    "poster": "https://live.staticflickr.com/65535/50907801727_48fb433370_b.jpg",
+    "rating": "8.4"
+  },
+  {
+    "id": 4,
+    "title": "Taxi Driver",
+    "year": "1976",
+    "released": "9 Feb 1976",
+    "runtime": "114 min",
+    "tagline": "On every street in every city in this country, there's a nobody who dreams of being a somebody",
+    "Genre": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Martin Scorsese",
+    "writers": [
+      "Paul Schrader"
+    ],
+    "actors": [
+      "Robert De Niro",
+      "Jodie Foster",
+      "Diahnne Abbott",
+      "Victor Argo"
+    ],
+    "plot": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute.",
+    "Language": "English",
+    "Country": "USA",
+    "awards": "Nominated for 4 Oscars. Another 21 wins & 16 nominations",
+    "poster": "https://live.staticflickr.com/65535/50907670911_81dfc4d2c5_b.jpg",
+    "rating": "8.2"
+  },
+  {
+    "id": 5,
+    "title": "Fallen Angels",
+    "year": "1995",
+    "released": "6 Sep 1995",
+    "runtime": "99 min",
+    "tagline": "I wish I could tell her some problems can't be solved over the phone",
+    "Genre": [
+      "Drama",
+      "Crime",
+      "Comedy"
+    ],
+    "director": "Kar-Wai Wong",
+    "writers": [
+      "Kar-Wai Wong"
+    ],
+    "actors": [
+      "Leon Lai",
+      "Michelle Reis",
+      "Takeshi Kaneshiro",
+      "Charlie Yeung"
+    ],
+    "plot": "This Hong Kong-set crime drama follows the lives of a hitman, hoping to get out of the business, and his elusive female partner.",
+    "Language": "Min Nan",
+    "Country": "Hong Kong",
+    "awards": "8 wins & 15 nominations",
+    "poster": "https://live.staticflickr.com/65535/50907670861_47e420b4dd_b.jpg",
+    "rating": "7.7"
+  },
+  {
+    "id": 6,
+    "title": "Irréversible",
+    "year": "2002",
+    "released": "30 Jan 2002",
+    "runtime": "97 min",
+    "tagline": "Time destroys everything",
+    "Genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Gaspar Noé",
+    "writers": [
+      "Gaspar Noé"
+    ],
+    "actors": [
+      "Monica Bellucci",
+      "Vincent Cassel",
+      "Albert Dupontel",
+      "Jo Prestia"
+    ],
+    "plot": "Events over the course of one traumatic night in Paris unfold in reverse-chronological order as the beautiful Alex is brutally raped and beaten by a stranger in the underpass.",
+    "Language": "French",
+    "Country": "France",
+    "awards": "3 wins & 13 nominations",
+    "poster": "blob:https://www.flickr.com/ea1dea76-304d-49b8-b920-26db6c63b778",
+    "rating": "7.4"
+  },
+  {
+    "id": 7,
+    "title": "Barry Lyndon",
+    "year": "1975",
+    "released": "16 Dec 1975",
+    "runtime": "185 min",
+    "tagline": "After reaching the top, where can you go...except down?",
+    "Genre": [
+      "Adventure",
+      "Drama",
+      "History"
+    ],
+    "director": "Stanley Kubrick",
+    "writers": [
+      "Stanley Kubrick",
+      "William Makepeace Thackeray"
+    ],
+    "actors": [
+      "Ryan O'Neal",
+      "Marisa Berenson",
+      "Patrick Magee",
+      "Hardy Krüger"
+    ],
+    "plot": "An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England.",
+    "Language": "English",
+    "Country": "UK",
+    "awards": "Won 4 Oscars. Another 15 wins & 15 nominations",
+    "poster": "https://live.staticflickr.com/65535/50907923227_10edfd902d_b.jpg",
+    "rating": "8.1"
+  },
+  {
+    "id": 8,
+    "title": "Stalker",
+    "year": "1979",
+    "released": "19 May 1980",
+    "runtime": "162 min",
+    "tagline": "Passion is the friction between one's soul and the outside world",
+    "Genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": "Andrei Tarkovsky",
+    "writers": [
+      "Arkadiy Strugatskiy",
+      "Boris Strugatskiy"
+    ],
+    "actors": [
+      "Aleksandr Kaydanovskiy",
+      "Anatoliy Solonitsyn",
+      "Nikolay Grinko",
+      "Alisa Freyndlikh"
+    ],
+    "plot": "A guide leads two men through an area known as the Zone to find a room that grants wishes.",
+    "Language": "Russian",
+    "Country": "Soviet Union",
+    "awards": "2 wins & 2 nominations",
+    "poster": "https://live.staticflickr.com/65535/50907772436_a3ede8bdd9_b.jpg",
+    "rating": "8.2"
+  },
+  {
+    "id": 9,
+    "title": "Heart of a Dog",
+    "year": "1988",
+    "released": "20 Nov 1988",
+    "runtime": "136 min",
+    "tagline": "One can find time for everything if one is never in a hurry",
+    "Genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Vladimir Bortko",
+    "writers": [
+      "Nataliya Bortko",
+      "Mikhail A. Bulgakov"
+    ],
+    "actors": [
+      "Evgeniy Evstigneev",
+      "Vladimir Tolokonnikov",
+      "Boris plotnikov",
+      "Roman Kartsev"
+    ],
+    "plot": "In the wake of the Russian revolution, Professor Preobrazhensky rescues a starving dog from the gutter, and attempts to transform him into a man. Based on Mikhail Bulgakov's novel of the same name.",
+    "Language": "Russian",
+    "Country": "Soviet Union",
+    "awards": "1 win",
+    "poster": "https://live.staticflickr.com/65535/50907116608_b6502d5b2d_b.jpg",
+    "rating": "8.7"
+  },
+  {
+    "id": 10,
+    "title": "Come and see",
+    "year": "1985",
+    "released": "15 Jan 1986",
+    "runtime": "142 min",
+    "tagline": "To love... To have children...",
+    "Genre": [
+      "Drama",
+      "War",
+      "Thriller"
+    ],
+    "director": "Elem Klimov",
+    "writers": [
+      "Ales Adamovich"
+    ],
+    "actors": [
+      "Aleksey Kravchenko",
+      "Olga Mironova",
+      "Liubomiras Laucevicius",
+      "Vladas Bagdonas "
+    ],
+    "plot": "After finding an old rifle, a young boy joins the Soviet resistance movement against ruthless German forces and experiences the horrors of World War II.",
+    "Language": "Russian",
+    "Country": "Soviet Union",
+    "awards": "3 wins",
+    "poster": "https://live.staticflickr.com/65535/50907131158_70f2a5fbee_b.jpg",
+    "rating": "8.3"
+  },
+  {
+    "id": 11,
+    "title": "Pulp Fiction",
+    "year": "1994",
+    "released": "29 Sep 1994",
+    "runtime": "154 min",
+    "tagline": "From the creators of 'True Romance' & 'Reservoir Dogs",
+    "Genre": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Quentin Tarantino",
+    "writers": [
+      "Quentin Tarantino",
+      "Roger Avary"
+    ],
+    "actors": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Uma Thurman",
+      "Tim Roth"
+    ],
+    "plot": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "Language": "English",
+    "Country": "USA",
+    "awards": "Won 1 Oscar. Another 69 wins & 75 nominations",
+    "poster": "https://live.staticflickr.com/65535/50907969692_5ce11d3a23_b.jpg",
+    "rating": "8.9"
+  },
+  {
+    "id": 12,
+    "title": "Goodfellas",
+    "year": "1990",
+    "released": "21 Sep 1990",
+    "runtime": "146 min",
+    "tagline": "Murderers come with smiles",
+    "Genre": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Martin Scorsese",
+    "writers": [
+      "Nicholas Pileggi"
+    ],
+    "actors": [
+      "Ray Liotta",
+      "Robert De Niro",
+      "Joe Pesci",
+      "Lorraine Bracco"
+    ],
+    "plot": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+    "Language": "English",
+    "Country": "USA",
+    "awards": "Won 1 Oscar. Another 43 wins & 38 nominations",
+    "poster": "blob:https://www.flickr.com/26f5ead0-9105-456b-9b45-6ead944d798c",
+    "rating": "8.7"
+  },
+  {
+    "id": 13,
+    "title": "The Godfather",
+    "year": "1972",
+    "released": "24 Mar 1972",
+    "runtime": "175 min",
+    "tagline": "An offer you can't refuse",
+    "Genre": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Francis Ford Coppola",
+    "writers": [
+      "Mario Puzo",
+      "Francis Ford Coppola"
+    ],
+    "actors": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan",
+      "Robert Duvall"
+    ],
+    "plot": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
+    "Language": "English",
+    "Country": "USA",
+    "awards": "Won 3 Oscars. Another 26 wins & 30 nominations",
+    "poster": "blob:https://www.flickr.com/9093d2e0-9c54-44ae-96d0-943f713071da",
+    "rating": "9.2"
+  },
+  {
+    "id": 14,
+    "title": "Pi",
+    "year": "1998",
+    "released": "10 Jul 1998",
+    "runtime": "84 min",
+    "tagline": "3.14159265358",
+    "Genre": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "director": "Darren Aronofsky",
+    "writers": [
+      "Darren Aronofsky"
+    ],
+    "actors": [
+      "Sean Gullette",
+      "Mark Margolis",
+      "Ben Shenkman",
+      "Stephen Pearlman"
+    ],
+    "plot": "A paranoid mathematician searches for a key number that will unlock the universal patterns found in nature.",
+    "Language": "English",
+    "Country": "USA",
+    "awards": "8 wins & 12 nominations",
+    "poster": "https://live.staticflickr.com/65535/50907169838_b0519ed1d8_b.jpg",
+    "rating": "7.4"
+  },
+  {
+    "id": 15,
+    "title": "Pusher",
+    "year": "1996",
+    "released": "30 Aug 1996",
+    "runtime": "110 min",
+    "tagline": "Du har ikke en chance. Grib den",
+    "Genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "director": "Nicolas Winding Refn",
+    "writers": [
+      "Jens Dahl",
+      "Nicolas Winding Refn"
+    ],
+    "actors": [
+      "Kim Bodnia",
+      "Mads Mikkelsen",
+      "Zlatko Buric",
+      "Laura Drasbæk"
+    ],
+    "plot": "A drug pusher grows increasingly desperate after a botched deal leaves him with a large debt to a ruthless drug lord.",
+    "Language": "Danish",
+    "Country": "Denmark",
+    "awards": "1 win",
+    "poster": "https://live.staticflickr.com/65535/50907881221_335ff0124b_b.jpg",
+    "rating": "7.4"
+  },
+  {
+    "id": 16,
+    "title": "L'eclisse",
+    "year": "1962",
+    "released": "13 Apr 1962",
+    "runtime": "126 min",
+    "tagline": "... the ache and ecstasy of love...",
+    "Genre": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Michelangelo Antonioni",
+    "writers": [
+      "Michelangelo Antonioni",
+      "Tonino Guerra"
+    ],
+    "actors": [
+      "Monica Vitti",
+      "Alain Delon",
+      "Francisco Rabal",
+      "Rossana Rory"
+    ],
+    "plot": "A young woman meets a vital young man, but their love affair is doomed because of the man's materialistic nature.",
+    "Language": "Italian",
+    "Country": "Italy",
+    "awards": "1 win & 4 nominations",
+    "poster": "https://live.staticflickr.com/65535/50908035417_35a473e1ce_b.jpg",
+    "rating": "7.9"
+  },
+  {
+    "id": 17,
+    "title": "Mulholland Dr.",
+    "year": "2001",
+    "released": "14 Mar 2002",
+    "runtime": "147 min",
+    "tagline": "A Love Story In The City Of Dreams",
+    "Genre": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "David Lynch",
+    "writers": [
+      "David Lynch"
+    ],
+    "actors": [
+      "Naomi Watts",
+      "Jeanne Bates",
+      "Dan Birnbaum",
+      "Laura Harring"
+    ],
+    "plot": "After a car wreck on the winding Mulholland Drive renders a woman amnesiac, she and a perky Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality.",
+    "Language": "English",
+    "Country": "USA",
+    "awards": "Nominated for 1 Oscar. Another 49 wins & 60 nominations",
+    "poster": "https://live.staticflickr.com/65535/50908179362_a039b72953_b.jpg",
+    "rating": "7.9"
+  },
+  {
+    "id": 18,
+    "title": "Dust",
+    "year": "2005",
+    "released": "14 Jul 2005",
+    "runtime": "107 min",
+    "tagline": "Everything you see, everything you know, everything you love is DUST, DUST, DUST",
+    "Genre": [
+      "Comedy",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": "Sergey Loban",
+    "writers": [
+      "Marina Potapova"
+    ],
+    "actors": [
+      "Aleksey Podolskiy",
+      "Pyotr Mamonov",
+      "Gleb Mikhaylov",
+      "Nina Yelisova"
+    ],
+    "plot": "The genre of the film DUST could be called fantastic realism or existential drama with elements of the fantastic. Dust means the haste in which people live. Dust is a common misconception, the natural clogging up of the brain.",
+    "Language": "Russian",
+    "Country": "Russia",
+    "awards": "1 win & 1 nomination",
+    "poster": "https://live.staticflickr.com/65535/50908055842_d678fae668_b.jpg",
+    "rating": "7.2"
+  },
+  {
+    "id": 19,
+    "title": "Morphine",
+    "year": "2008",
+    "released": "27 Nov 2008",
+    "runtime": "110 min",
+    "tagline": "And loneliness is important, significant thoughts, it is contemplation, calmness, wisdom ...",
+    "Genre": [
+      "Drama"
+    ],
+    "director": "Aleksey Balabanov",
+    "writers": [
+      "Sergey Bodrov",
+      "Mikhail A. Bulgakov"
+    ],
+    "actors": [
+      "Leonid Bichevin",
+      "Ingeborga Dapkunaite",
+      "Andrey Panin",
+      "Katarina Radivojevic"
+    ],
+    "plot": "A drama that chronicles the civil war that raged after the 1917 Bolshevik revolution.",
+    "Language": "Russian",
+    "Country": "Russia",
+    "awards": "2 wins & 6 nominations",
+    "poster": "https://live.staticflickr.com/65535/50907938611_bdcdbb846b_b.jpg",
+    "rating": "7.2"
+  },
+  {
+    "id": 20,
+    "title": "Rocco and his brothers",
+    "year": "1960",
+    "released": "10 Mar 1961",
+    "runtime": "179 min",
+    "tagline": "DARING in its realism. STUNNING in its impact. BREATHTAKING in its scope.",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Sport"
+    ],
+    "director": "Luchino Visconti",
+    "writers": [
+      "Luchino Visconti",
+      "Suso Cecchi D'Amico"
+    ],
+    "actors": [
+      "Alain Delon",
+      "Renato Salvatori",
+      "Annie Girardot",
+      "Katina Paxinou"
+    ],
+    "plot": "Having recently been uprooted to Milan, Rocco and his four brothers each look for a new way in life when a prostitute comes between Rocco and his brother Simone.",
+    "Language": "Russian",
+    "Country": "Russia",
+    "awards": "Nominated for 2 BAFTA Film Awards. Another 10 wins & 8 nominations",
+    "poster": "blob:https://www.flickr.com/7828d55e-e42e-4635-88d7-25e6037b28c1",
+    "rating": "8.3"
+  }
+]

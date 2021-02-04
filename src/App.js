@@ -17,12 +17,13 @@ const App = () => {
             <div className={style.mainWindow}>
                 <Navbar/>
                 <div className={style.content}>
-                    <Route path='/movies' render={() => <MoviesContainer/>}/>
+                    <Route path='/movies' render={() => <Movies/>}/>
                     <Route path='/favourites' render={() => <div>Favourites</div>}/>
                     <Route path='/ratings' render={() => <div>Ratings</div>}/>
                     <Route path='/about' render={() => <div>About us</div>}/>
                 </div>
             </div>
+            {/*<Footer/>*/}
         </div>
     )
 }
