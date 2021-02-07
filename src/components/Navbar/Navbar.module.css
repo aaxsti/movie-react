@@ -27,7 +27,7 @@
 .navbarMenu ul li a {
     text-decoration: none;
     color: black;
-
+    /*font-weight: bold;*/
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -38,28 +38,13 @@
 
 .navbarMenu ul li a:hover {
     background-size: 100% 1px;
-    /*color: white;*/
-    /*color: #006265;*/
 }
 
 .navbarMenu ul li a.activeLink {
     outline: none;
-    /*color: white;*/
-    /*color: #006265;*/
     background-size: 100% 1px;
 }
 
 .navbarMenu ul li a:focus {
     outline: none;
 }
-
-/*@media (max-width: 1000px) {*/
-/*    .navbarMenu ul li {*/
-/*        padding-right: 50px;*/
-/*    }*/
-
-/*    .navbarBox {*/
-/*        width: 60%;*/
-/*    }*/
-/*}*/
-

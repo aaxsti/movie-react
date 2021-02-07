@@ -1,26 +1,30 @@
 import React, {useState} from 'react';
-import style from './Movie.module.css';
 import Rating from '@material-ui/lab/Rating';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import JSON_DATA from "../../../MOCK_DATA.json";
+import style from './SearchMovie.module.css';
+import {NavLink} from "react-router-dom";
 
+
+// MOVIES JSON
+let moviesArray = require("../../../MOCK_DATA.json");
+console.log(moviesArray);
 const Movie = (props) => {
 
     const [searchTerm, setSearchTerm] = useState('');
     const [value, setValue] = useState(0);
 
     let parsedDate = new Date(props.premiereDate).toDateString().slice(3);
-    let joinedCastArray = props.cast.join(', ');
+    // let genres = JSON_DATA
+    // let joinedCastArray = JSON_DATA.actors.join(', ');
 
     let addToFavourites = (values) => {
         // props.addPost(values.newPostText);
         console.log('Button pushed');
     };
 
-
     return (
-
         <div className={style.searchBox}>
             <input
                 type="text"
@@ -35,83 +39,37 @@ const Movie = (props) => {
                     return val;
                 }
             }).map((val, key) => {
-                return <div className={style.searchResults} key={key}>
-                    <div className={style.moviePictureWrapper}>
-                        <div className={style.inlineDiv}>
-                            <img className={style.moviePicture} src={props.poster} alt=""/>
-                        </div>
-                        <div className={style.inlineDiv + ' ' + style.movieInfo}>
-                            <h3 className={style.movieTitle}>
-                                {props.title}
-                            </h3>
-                            <div>
-                                {props.director}
+                return (
+                    <div className={style.movieBlock} key={key}>
+                        <NavLink to="/movieinfo">
+                            <div className={style.moviePictureWrapper}>
+                                <div className={style.inlineDiv}>
+                                    <img className={style.moviePicture} src={val.poster} alt=""/>
+                                </div>
+                                <div className={style.inlineDiv + ' ' + style.movieInfo}>
+                                    <h3 className={style.movieTitle}>
+                                        {val.title}
+                                    </h3>
+                                    <hr/>
+                                    <div className={style.movieInfoPart}>
+                                        <strong>Director:</strong> {val.director}
+                                    </div>
+                                    <div className={style.movieInfoPart}>
+                                        <strong>Year:</strong> {val.year}
+                                    </div>
+                                    <div className={style.movieInfoPart}>
+                                        <strong>Country:</strong> {val.country}
+                                    </div>
+                                    <div className={style.movieInfoPart}>
+                                        <strong>Rating:</strong> {val.rating} &#9734;
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                {props.released}
-                            </div>
-                            <div>
-                                {joinedCastArray}
-                            </div>
-                            <div>
-                                <button className={style.button} onClick={addToFavourites}>Add to Favourites</button>
-                            </div>
-
-
-                        </div>
+                        </NavLink>
                     </div>
-                </div>
+                )
             })}
         </div>
-
-
-
-
-
-
-
-
-
-
-        // <div className={style.movieBlock}>
-        //     <div className={style.moviePictureWrapper}>
-        //         <div className={style.inlineDiv}>
-        //             <img className={style.moviePicture} src={props.imageSrc} alt=""/>
-        //         </div>
-        //         <div className={style.inlineDiv + ' ' + style.movieInfo}>
-        //             <h3 className={style.movieTitle}>
-        //                 {props.movieTitle}
-        //             </h3>
-        //             <div>
-        //                 {props.director}
-        //             </div>
-        //             <div>
-        //                 {parsedDate}
-        //             </div>
-        //             <div>
-        //                 {joinedCastArray}
-        //             </div>
-        //             <div>
-        //                 <button className={style.button} onClick={addToFavourites}>Add to Favourites</button>
-        //             </div>
-        //
-        //
-        //
-        //             {/*<Box component="fieldset" mb={3} borderColor="transparent">*/}
-        //             {/*    <Typography component="legend">Film Rating</Typography>*/}
-        //             {/*    <Rating*/}
-        //             {/*        name="simple-controlled"*/}
-        //             {/*        value={value}*/}
-        //             {/*        onChange={(event, newValue) => {*/}
-        //             {/*            setValue(newValue);*/}
-        //             {/*        }}*/}
-        //             {/*    />*/}
-        //             {/*</Box>*/}
-        //
-        //         </div>
-        //     </div>
-        //
-        // </div>
     );
 }
 

@@ -6,7 +6,7 @@ body {
 }
 
 .mainWrapper {
-    margin-top: 50px;
+    margin-top: 30px;
 
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none;   /* Chrome/Safari/Opera */
@@ -23,39 +23,6 @@ body {
     overflow: hidden;
 }
 
-.logoBox:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
-.logoBox {
-    margin: 0 auto;
-    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    background: #C4C4C4;
-    width: 200px;
-    height: 80px;
-}
-
-.logoBox:hover {
-    transition: 1s;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    background: #afbabd;
-
-}
-
-.logo {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.logo:hover {
-    transition: 1s;
-    color: #ffffff;
-}
-
 .content {
-
+    margin-bottom: 30px;
 }

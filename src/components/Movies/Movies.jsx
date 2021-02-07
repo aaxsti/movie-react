@@ -13,12 +13,7 @@ const Movies = (props) => {
     //     cast={m.actors}/>)
 
     return (
-        <SearchBar/>
-
-        // <div className={style.moviesBlock}>
-        //     {/*<SearchBar/>*/}
-        //     {/*{moviesElements}*/}
-        // </div>
+            <Movie/>
     );
 }
 

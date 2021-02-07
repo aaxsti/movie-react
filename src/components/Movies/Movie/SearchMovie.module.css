@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    width: 80%;
+    flex-direction: column;
+    background: #E5E5E5;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.searchBox input {
+    font-weight: bold;
+    transition: 0.3s;
+    background-color: #d6d6d6;
+    border: none;
+    border-bottom: #a9b5b5 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
+
+.searchBox input:focus {
+    transition: 0.3s;
+    outline: none;
+    background-color: white;
+}
+
+.searchBox input:focus::-moz-placeholder { color:transparent; }
+.searchBox input:focus::-webkit-input-placeholder { color:transparent; }
+
+.movieBlock {
+    margin-left: 100px;
+    width: 680px;
+    margin-top: 30px;
+    overflow: hidden;
+
+    /*border: 2px black solid;*/
+}
+
+.movieBlock:hover {
+    transition: 0.3s;
+    background-color: #d0d7d7;
+}
+
+a {
+
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    color: #c4c4c4;
+}
+
+.inlineDiv {
+    float: left;
+}
+
+.movieInfo {
+    border-left-color: #242222; /* Цвет линии слева */
+    border-left-style: solid; /* Стиль линии */
+    border-left-width: 2px; /* Толщина линии */
+
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+.moviePictureWrapper {
+    width: 1000%;
+    overflow: hidden;
+}
+
+.moviePicture {
+    height: 130px;
+}
+
+.movieTitle {
+    color: #3a3a3a;
+    padding: 0;
+    font-weight: bold;
+    /*padding-bottom: 5px;*/
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.movieInfoPart {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    background-color: #C4C4C4;
+    height: 27px;
+}
