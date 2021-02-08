@@ -12,6 +12,7 @@
     background: #C4C4C4;
     width: 200px;
     height: 80px;
+    /*border-radius: 3px;*/
 }
 
 .logoBox:hover {

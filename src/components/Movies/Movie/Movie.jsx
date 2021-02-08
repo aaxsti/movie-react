@@ -55,7 +55,7 @@ const Movie = (props) => {
                                         <strong>Director:</strong> {val.director}
                                     </div>
                                     <div className={style.movieInfoPart}>
-                                        <strong>Year:</strong> {val.year}
+                                        <strong>Year:</strong> {val.released.slice(-4)}
                                     </div>
                                     <div className={style.movieInfoPart}>
                                         <strong>Country:</strong> {val.country}

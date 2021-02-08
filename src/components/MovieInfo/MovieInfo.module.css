@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.movieInfoWrapper {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    width: 80%;
+    flex-direction: column;
+    background: #E5E5E5;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.movieInfoBlock {
+    margin-left: 60px;
+    width: 760px;
+    margin-top: 30px;
+    overflow: hidden;
+
+    /*border: 2px black solid;*/
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.movieInfoWrapper hr {
+    border: 2px #c4c4c4 solid;
+    padding: 0;
+    margin: 0;
+}
+
+.inlineDiv {
+    float: left;
+}
+
+.movieInfo {
+    width: 400px;
+    /*margin-left: 50px;*/
+    padding-left: 30px;
+}
+
+.moviePictureWrapper {
+    width: 1000%;
+    overflow: hidden;
+}
+
+.moviePicture {
+    height: 255px;
+    border-radius: 3px;
+}
+
+.movieTitle {
+    font-size: 20px;
+    padding-bottom: 5px;
+    /*padding: 0;*/
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.movieTagline {
+    font-size: 15px;
+}
+
+.movieInfoPart {
+    margin: 0;
+    padding: 5px 0 0;
+    font-size: 15px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.moviePlot h4 {
+    margin: 0;
+    padding: 7px 0 10px;
+}
+
+.movieRating {
+    padding-top: 10px;
+}

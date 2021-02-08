@@ -9,7 +9,6 @@ import MovieInfo from "./components/MovieInfo/MovieInfo";
 const App = () => {
     return (
         <div className={style.mainWrapper}>
-            {/*<BackgroundVideo/>*/}
             <Logo/>
             <div className={style.mainWindow}>
                 <Navbar/>

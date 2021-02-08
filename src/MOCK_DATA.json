@@ -2,7 +2,6 @@
   {
     "id": 1,
     "title": "Dogville",
-    "year": "2003",
     "released": "3 Jul 2003",
     "runtime": "178 min",
     "tagline": "A quiet little town not far from here",
@@ -11,14 +10,10 @@
       "Drama"
     ],
     "director": "Lars von Trier",
-    "writers": [
-      "Lars von Trier"
-    ],
     "actors": [
       "Nicole Kidman",
       "Harriet Andersson",
-      "Lauren Bacall",
-      "Jean-Marc Barr"
+      "Lauren Bacall"
     ],
     "plot": "A woman on the run from the mob is reluctantly accepted in a small Colorado community in exchange for labor, but when a search visits the town she finds out that their support has a price.",
     "language": "English",
@@ -30,7 +25,6 @@
   {
     "id": 2,
     "title": "Climax",
-    "year": "2018",
     "released": "11 Oct 2018",
     "runtime": "97 min",
     "tagline": "Des Danseurs, Une Fete, Des Vinyles, Une Sangria",
@@ -40,14 +34,10 @@
       "Music"
     ],
     "director": "Gaspar Noé",
-    "writers": [
-      "Gaspar Noé"
-    ],
     "actors": [
       "Sofia Boutella",
       "Romain Guillermic",
-      "Souheila Yacoub",
-      "Kiddy Smile"
+      "Souheila Yacoub"
     ],
     "plot": "French dancers gather in a remote, empty school building to rehearse on a wintry night. The all-night celebration morphs into a hallucinatory nightmare when they learn their sangria is laced with LSD.",
     "language": "French",
@@ -59,7 +49,6 @@
   {
     "id": 3,
     "title": "High and Low",
-    "year": "1963",
     "released": "1 Mar 1963",
     "runtime": "143 min",
     "tagline": "142 Screenful Minutes of Thrills and Suspense!",
@@ -68,15 +57,10 @@
       "Drama"
     ],
     "director": "Akira Kurosawa",
-    "writers": [
-      "Hideo Oguni",
-      "Ryûzô Kikushima"
-    ],
     "actors": [
       "Toshirô Mifune",
       "Tatsuya Nakadai",
-      "Kyôko Kagawa",
-      "Tatsuya Mihashi"
+      "Kyôko Kagawa"
     ],
     "plot": "An executive of a shoe company becomes a victim of extortion when his chauffeur's son is kidnapped and held for ransom.",
     "language": "Japanese",
@@ -88,7 +72,6 @@
   {
     "id": 4,
     "title": "Taxi Driver",
-    "year": "1976",
     "released": "9 Feb 1976",
     "runtime": "114 min",
     "tagline": "On every street in every city in this country, there's a nobody who dreams of being a somebody",
@@ -97,14 +80,10 @@
       "Drama"
     ],
     "director": "Martin Scorsese",
-    "writers": [
-      "Paul Schrader"
-    ],
     "actors": [
       "Robert De Niro",
       "Jodie Foster",
-      "Diahnne Abbott",
-      "Victor Argo"
+      "Diahnne Abbott"
     ],
     "plot": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute.",
     "language": "English",
@@ -116,7 +95,6 @@
   {
     "id": 5,
     "title": "Fallen Angels",
-    "year": "1995",
     "released": "6 Sep 1995",
     "runtime": "99 min",
     "tagline": "I wish I could tell her some problems can't be solved over the phone",
@@ -126,14 +104,10 @@
       "Comedy"
     ],
     "director": "Kar-Wai Wong",
-    "writers": [
-      "Kar-Wai Wong"
-    ],
     "actors": [
       "Leon Lai",
       "Michelle Reis",
-      "Takeshi Kaneshiro",
-      "Charlie Yeung"
+      "Takeshi Kaneshiro"
     ],
     "plot": "This Hong Kong-set crime drama follows the lives of a hitman, hoping to get out of the business, and his elusive female partner.",
     "language": "Min Nan",
@@ -145,7 +119,6 @@
   {
     "id": 6,
     "title": "Irréversible",
-    "year": "2002",
     "released": "30 Jan 2002",
     "runtime": "97 min",
     "tagline": "Time destroys everything",
@@ -155,14 +128,10 @@
       "Mystery"
     ],
     "director": "Gaspar Noé",
-    "writers": [
-      "Gaspar Noé"
-    ],
     "actors": [
       "Monica Bellucci",
       "Vincent Cassel",
-      "Albert Dupontel",
-      "Jo Prestia"
+      "Albert Dupontel"
     ],
     "plot": "Events over the course of one traumatic night in Paris unfold in reverse-chronological order as the beautiful Alex is brutally raped and beaten by a stranger in the underpass.",
     "language": "French",
@@ -174,7 +143,6 @@
   {
     "id": 7,
     "title": "Barry Lyndon",
-    "year": "1975",
     "released": "16 Dec 1975",
     "runtime": "185 min",
     "tagline": "After reaching the top, where can you go...except down?",
@@ -184,15 +152,10 @@
       "History"
     ],
     "director": "Stanley Kubrick",
-    "writers": [
-      "Stanley Kubrick",
-      "William Makepeace Thackeray"
-    ],
     "actors": [
       "Ryan O'Neal",
       "Marisa Berenson",
-      "Patrick Magee",
-      "Hardy Krüger"
+      "Patrick Magee"
     ],
     "plot": "An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England.",
     "language": "English",
@@ -204,7 +167,6 @@
   {
     "id": 8,
     "title": "Stalker",
-    "year": "1979",
     "released": "19 May 1980",
     "runtime": "162 min",
     "tagline": "Passion is the friction between one's soul and the outside world",
@@ -213,15 +175,10 @@
       "Sci-Fi"
     ],
     "director": "Andrei Tarkovsky",
-    "writers": [
-      "Arkadiy Strugatskiy",
-      "Boris Strugatskiy"
-    ],
     "actors": [
       "Aleksandr Kaydanovskiy",
       "Anatoliy Solonitsyn",
-      "Nikolay Grinko",
-      "Alisa Freyndlikh"
+      "Nikolay Grinko"
     ],
     "plot": "A guide leads two men through an area known as the Zone to find a room that grants wishes.",
     "language": "Russian",
@@ -233,7 +190,6 @@
   {
     "id": 9,
     "title": "Heart of a Dog",
-    "year": "1988",
     "released": "20 Nov 1988",
     "runtime": "136 min",
     "tagline": "One can find time for everything if one is never in a hurry",
@@ -242,15 +198,10 @@
       "Drama"
     ],
     "director": "Vladimir Bortko",
-    "writers": [
-      "Nataliya Bortko",
-      "Mikhail A. Bulgakov"
-    ],
     "actors": [
       "Evgeniy Evstigneev",
       "Vladimir Tolokonnikov",
-      "Boris plotnikov",
-      "Roman Kartsev"
+      "Boris plotnikov"
     ],
     "plot": "In the wake of the Russian revolution, Professor Preobrazhensky rescues a starving dog from the gutter, and attempts to transform him into a man. Based on Mikhail Bulgakov's novel of the same name.",
     "language": "Russian",
@@ -262,7 +213,6 @@
   {
     "id": 10,
     "title": "Come and see",
-    "year": "1985",
     "released": "15 Jan 1986",
     "runtime": "142 min",
     "tagline": "To love... To have children...",
@@ -272,14 +222,10 @@
       "Thriller"
     ],
     "director": "Elem Klimov",
-    "writers": [
-      "Ales Adamovich"
-    ],
     "actors": [
       "Aleksey Kravchenko",
       "Olga Mironova",
-      "Liubomiras Laucevicius",
-      "Vladas Bagdonas "
+      "Liubomiras Laucevicius"
     ],
     "plot": "After finding an old rifle, a young boy joins the Soviet resistance movement against ruthless German forces and experiences the horrors of World War II.",
     "language": "Russian",
@@ -291,7 +237,6 @@
   {
     "id": 11,
     "title": "Pulp Fiction",
-    "year": "1994",
     "released": "29 Sep 1994",
     "runtime": "154 min",
     "tagline": "From the creators of 'True Romance' & 'Reservoir Dogs",
@@ -300,27 +245,21 @@
       "Drama"
     ],
     "director": "Quentin Tarantino",
-    "writers": [
-      "Quentin Tarantino",
-      "Roger Avary"
-    ],
     "actors": [
       "John Travolta",
       "Samuel L. Jackson",
-      "Uma Thurman",
-      "Tim Roth"
+      "Uma Thurman"
     ],
     "plot": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
     "language": "English",
     "country": "USA",
     "awards": "Won 1 Oscar. Another 69 wins & 75 nominations",
-    "poster": "https://live.staticflickr.com/65535/50907969692_5ce11d3a23_b.jpg",
+    "poster": "https://sun9-20.userapi.com/impg/S8UT-SYixszLOJnHBBm7LVvpY2m8xmhtiXW0wA/oj7PSk_ufxU.jpg?size=700x700&quality=96&proxy=1&sign=e0827ac3bff241917d651fff9813a9ee&type=album",
     "rating": "8.9"
   },
   {
     "id": 12,
     "title": "Goodfellas",
-    "year": "1990",
     "released": "21 Sep 1990",
     "runtime": "146 min",
     "tagline": "Murderers come with smiles",
@@ -330,14 +269,10 @@
       "Drama"
     ],
     "director": "Martin Scorsese",
-    "writers": [
-      "Nicholas Pileggi"
-    ],
     "actors": [
       "Ray Liotta",
       "Robert De Niro",
-      "Joe Pesci",
-      "Lorraine Bracco"
+      "Joe Pesci"
     ],
     "plot": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
     "language": "English",
@@ -349,7 +284,6 @@
   {
     "id": 13,
     "title": "The Godfather",
-    "year": "1972",
     "released": "24 Mar 1972",
     "runtime": "175 min",
     "tagline": "An offer you can't refuse",
@@ -358,15 +292,10 @@
       "Drama"
     ],
     "director": "Francis Ford Coppola",
-    "writers": [
-      "Mario Puzo",
-      "Francis Ford Coppola"
-    ],
     "actors": [
       "Marlon Brando",
       "Al Pacino",
-      "James Caan",
-      "Robert Duvall"
+      "James Caan"
     ],
     "plot": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
     "language": "English",
@@ -378,7 +307,6 @@
   {
     "id": 14,
     "title": "Pi",
-    "year": "1998",
     "released": "10 Jul 1998",
     "runtime": "84 min",
     "tagline": "3.14159265358",
@@ -388,14 +316,10 @@
       "Mystery"
     ],
     "director": "Darren Aronofsky",
-    "writers": [
-      "Darren Aronofsky"
-    ],
     "actors": [
       "Sean Gullette",
       "Mark Margolis",
-      "Ben Shenkman",
-      "Stephen Pearlman"
+      "Ben Shenkman"
     ],
     "plot": "A paranoid mathematician searches for a key number that will unlock the universal patterns found in nature.",
     "language": "English",
@@ -407,7 +331,6 @@
   {
     "id": 15,
     "title": "Pusher",
-    "year": "1996",
     "released": "30 Aug 1996",
     "runtime": "110 min",
     "tagline": "Du har ikke en chance. Grib den",
@@ -416,15 +339,10 @@
       "Thriller"
     ],
     "director": "Nicolas Winding Refn",
-    "writers": [
-      "Jens Dahl",
-      "Nicolas Winding Refn"
-    ],
     "actors": [
       "Kim Bodnia",
       "Mads Mikkelsen",
-      "Zlatko Buric",
-      "Laura Drasbæk"
+      "Zlatko Buric"
     ],
     "plot": "A drug pusher grows increasingly desperate after a botched deal leaves him with a large debt to a ruthless drug lord.",
     "language": "Danish",
@@ -436,7 +354,6 @@
   {
     "id": 16,
     "title": "L'eclisse",
-    "year": "1962",
     "released": "13 Apr 1962",
     "runtime": "126 min",
     "tagline": "... the ache and ecstasy of love...",
@@ -445,15 +362,10 @@
       "Romance"
     ],
     "director": "Michelangelo Antonioni",
-    "writers": [
-      "Michelangelo Antonioni",
-      "Tonino Guerra"
-    ],
     "actors": [
       "Monica Vitti",
       "Alain Delon",
-      "Francisco Rabal",
-      "Rossana Rory"
+      "Francisco Rabal"
     ],
     "plot": "A young woman meets a vital young man, but their love affair is doomed because of the man's materialistic nature.",
     "language": "Italian",
@@ -465,7 +377,6 @@
   {
     "id": 17,
     "title": "Mulholland Dr.",
-    "year": "2001",
     "released": "14 Mar 2002",
     "runtime": "147 min",
     "tagline": "A Love Story In The City Of Dreams",
@@ -475,26 +386,21 @@
       "Thriller"
     ],
     "director": "David Lynch",
-    "writers": [
-      "David Lynch"
-    ],
     "actors": [
       "Naomi Watts",
       "Jeanne Bates",
-      "Dan Birnbaum",
-      "Laura Harring"
+      "Dan Birnbaum"
     ],
     "plot": "After a car wreck on the winding Mulholland Drive renders a woman amnesiac, she and a perky Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality.",
     "language": "English",
     "country": "USA",
     "awards": "Nominated for 1 Oscar. Another 49 wins & 60 nominations",
-    "poster": "https://live.staticflickr.com/65535/50908179362_a039b72953_b.jpg",
+    "poster": "https://sun9-42.userapi.com/impg/eJAsVGQ0z_3G491lHwXBlHI7LAxKbUsOw2OVTg/BPoeUAnZUTY.jpg?size=332x332&quality=96&proxy=1&sign=00ecee4de3e91fbfe087b2c6565cc4e1&type=album",
     "rating": "7.9"
   },
   {
     "id": 18,
     "title": "Dust",
-    "year": "2005",
     "released": "14 Jul 2005",
     "runtime": "107 min",
     "tagline": "Everything you see, everything you know, everything you love is DUST, DUST, DUST",
@@ -504,14 +410,10 @@
       "Sci-Fi"
     ],
     "director": "Sergey Loban",
-    "writers": [
-      "Marina Potapova"
-    ],
     "actors": [
       "Aleksey Podolskiy",
       "Pyotr Mamonov",
-      "Gleb Mikhaylov",
-      "Nina Yelisova"
+      "Gleb Mikhaylov"
     ],
     "plot": "The genre of the film DUST could be called fantastic realism or existential drama with elements of the fantastic. Dust means the haste in which people live. Dust is a common misconception, the natural clogging up of the brain.",
     "language": "Russian",
@@ -523,7 +425,6 @@
   {
     "id": 19,
     "title": "Morphine",
-    "year": "2008",
     "released": "27 Nov 2008",
     "runtime": "110 min",
     "tagline": "And loneliness is important, significant thoughts, it is contemplation, calmness, wisdom ...",
@@ -531,15 +432,10 @@
       "Drama"
     ],
     "director": "Aleksey Balabanov",
-    "writers": [
-      "Sergey Bodrov",
-      "Mikhail A. Bulgakov"
-    ],
     "actors": [
       "Leonid Bichevin",
       "Ingeborga Dapkunaite",
-      "Andrey Panin",
-      "Katarina Radivojevic"
+      "Andrey Panin"
     ],
     "plot": "A drama that chronicles the civil war that raged after the 1917 Bolshevik revolution.",
     "language": "Russian",
@@ -551,7 +447,6 @@
   {
     "id": 20,
     "title": "Rocco and his brothers",
-    "year": "1960",
     "released": "10 Mar 1961",
     "runtime": "179 min",
     "tagline": "DARING in its realism. STUNNING in its impact. BREATHTAKING in its scope.",
@@ -561,15 +456,10 @@
       "Sport"
     ],
     "director": "Luchino Visconti",
-    "writers": [
-      "Luchino Visconti",
-      "Suso Cecchi D'Amico"
-    ],
     "actors": [
       "Alain Delon",
       "Renato Salvatori",
-      "Annie Girardot",
-      "Katina Paxinou"
+      "Annie Girardot"
     ],
     "plot": "Having recently been uprooted to Milan, Rocco and his four brothers each look for a new way in life when a prostitute comes between Rocco and his brother Simone.",
     "language": "Russian",
