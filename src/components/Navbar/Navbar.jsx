@@ -14,7 +14,7 @@ const Navbar = () => {
                                 fill="black"/>
                         </svg>
                     </NavLink></li>
-                    <li><NavLink to="/favourites" activeClassName={style.activeLink}>Top 10 &nbsp;
+                    <li><NavLink to="/top" activeClassName={style.activeLink}>Top 10 &nbsp;
                         <svg width="20" height="13" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M7.99 7L7.05 9.06L4.99 10L7.05 10.94L7.99 13L8.93 10.94L10.99 10L8.93 9.06L7.99 7ZM16 0L18 4H15L13 0H11L13 4H10L8 0H6L8 4H5L3 0H2C0.9 0 0.00999999 0.9 0.00999999 2L0 14C0 15.1 0.9 16 2 16H18C19.1 16 19.99 15.1 19.99 14V0H16ZM18 14H2V2.47L3.76 6H13.99L13.36 7.37L11.99 8L13.36 8.63L13.99 10L14.62 8.63L15.99 8L14.62 7.37L13.99 6H18V14Z"

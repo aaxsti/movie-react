@@ -1,7 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style from './MovieInfo.module.css';
+import {Button} from "@material-ui/core";
+import MovieDataForm from "./MovieDataForm";
 
 const MovieInfo = (props) => {
+
+    let [editMode, setEditMode] = useState(false);
+
+    return (
+        <div>
+            {editMode
+                ? <MovieDataForm/>
+                : <MovieData goToEditMode={() => {
+                    setEditMode(true)
+                }}/>}
+        </div>
+    );
+}
+
+const MovieData = (props) => {
     return (
         <div className={style.movieInfoWrapper}>
             <div className={style.movieInfoBlock}>
@@ -9,7 +26,7 @@ const MovieInfo = (props) => {
                     <div className={style.inlineDiv}>
                         <img className={style.moviePicture}
                              src={'https://sun9-52.userapi.com/impg/npbO2jennMuYF8AJwoXWJz-3nnodqKnk4lXIZQ/s70BfOxgImk.jpg?size=940x942&quality=96&proxy=1&sign=e26cdb0dc4eeae86a9ccac9ee1afb108&type=album'}
-                             alt=""/>
+                             alt="Dogville"/>
                     </div>
                     <div className={style.inlineDiv + ' ' + style.movieInfo}>
                         <h3 className={style.movieTitle}>
@@ -58,8 +75,13 @@ const MovieInfo = (props) => {
                     </div>
                 </div>
             </div>
+            <div className={style.editFormButtonWrapper}>
+                <Button variant="outlined" onClick={() => {
+                    alert(1)
+                }} size={"small"}>Edit</Button>
+            </div>
         </div>
-    );
+    )
 }
 
 export default MovieInfo;

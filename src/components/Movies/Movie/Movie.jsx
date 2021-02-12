@@ -32,6 +32,7 @@ const Movie = (props) => {
                 onChange={event => {
                     setSearchTerm(event.target.value)
                 }}/>
+                <hr className={style.searchLine}/>
             {JSON_DATA.filter(val => {
                 if (searchTerm === "") {
                     return val;
@@ -41,7 +42,7 @@ const Movie = (props) => {
             }).map((val, key) => {
                 return (
                     <div className={style.movieBlock} key={key}>
-                        <NavLink to="/movieinfo">
+                        <NavLink to={"/movieinfo/" + val.id}>
                             <div className={style.moviePictureWrapper}>
                                 <div className={style.inlineDiv}>
                                     <img className={style.moviePicture} src={val.poster} alt=""/>
