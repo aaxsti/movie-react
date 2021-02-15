@@ -1,48 +1,3 @@
-.searchBox {
-    display: flex;
-    justify-content: center;
-    /*align-items: center;*/
-    width: 80%;
-    flex-direction: column;
-    background: #E5E5E5;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    padding-bottom: 30px;
-    /*border-radius: 3px;*/
-
-}
-
-.searchBox input {
-    transition: 0.3s;
-    background-color: #d6d6d6;
-    border: none;
-    border-bottom: #a9b5b5 2px solid;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 30px;
-    width: 300px;
-    height: 30px;
-    font-size: 16px;
-    margin-bottom: 25px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.searchLine {
-    /*box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);  */
-}
-
-.searchBox input:focus {
-    transition: 0.3s;
-    outline: none;
-    background-color: white;
-}
-
-.searchBox input:focus::-moz-placeholder { color:transparent; }
-.searchBox input:focus::-webkit-input-placeholder { color:transparent; }
-
 .movieBlock {
     margin-left: 100px;
     width: 680px;
@@ -58,12 +13,11 @@
 }
 
 a {
-
     text-decoration: none;
     color: black;
 }
 
-.searchBox hr {
+hr {
     border: 2px #c4c4c4 solid;
     padding: 0;
     margin: 0;
@@ -88,22 +42,20 @@ a {
 }
 
 .moviePicture {
-    height: 130px;
+    height: 145px;
     border-radius: 3px;
 }
 
 .movieTitle {
-    /*float: right;*/
     color: #3a3a3a;
     padding: 0;
     font-weight: bold;
-    /*padding-bottom: 5px;*/
     margin: 0;
 }
 
 .movieInfoPart {
     margin: 0;
-    padding: 0;
+    padding: 5px 0 0 0;
 }
 
 .button {

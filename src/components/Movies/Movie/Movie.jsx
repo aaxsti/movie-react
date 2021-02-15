@@ -6,16 +6,17 @@ import JSON_DATA from "../../../MOCK_DATA.json";
 import style from './SearchMovie.module.css';
 import {NavLink} from "react-router-dom";
 
-
 // MOVIES JSON
 let moviesArray = require("../../../MOCK_DATA.json");
 console.log(moviesArray);
-const Movie = (props) => {
+
+
+const Movie = ({movie}) => {
 
     const [searchTerm, setSearchTerm] = useState('');
     const [value, setValue] = useState(0);
 
-    let parsedDate = new Date(props.premiereDate).toDateString().slice(3);
+    // let parsedDate = new Date(props.premiereDate).toDateString().slice(3);
     // let genres = JSON_DATA
     // let joinedCastArray = JSON_DATA.actors.join(', ');
 
@@ -25,52 +26,34 @@ const Movie = (props) => {
     };
 
     return (
-        <div className={style.searchBox}>
-            <input
-                type="text"
-                placeholder="Search..."
-                onChange={event => {
-                    setSearchTerm(event.target.value)
-                }}/>
-                <hr className={style.searchLine}/>
-            {JSON_DATA.filter(val => {
-                if (searchTerm === "") {
-                    return val;
-                } else if (val.title.toLowerCase().includes(searchTerm.toLowerCase())) {
-                    return val;
-                }
-            }).map((val, key) => {
-                return (
-                    <div className={style.movieBlock} key={key}>
-                        <NavLink to={"/movieinfo/" + val.id}>
-                            <div className={style.moviePictureWrapper}>
-                                <div className={style.inlineDiv}>
-                                    <img className={style.moviePicture} src={val.poster} alt=""/>
-                                </div>
-                                <div className={style.inlineDiv + ' ' + style.movieInfo}>
-                                    <h3 className={style.movieTitle}>
-                                        {val.title}
-                                    </h3>
-                                    <hr/>
-                                    <div className={style.movieInfoPart}>
-                                        <strong>Director:</strong> {val.director}
-                                    </div>
-                                    <div className={style.movieInfoPart}>
-                                        <strong>Year:</strong> {val.released.slice(-4)}
-                                    </div>
-                                    <div className={style.movieInfoPart}>
-                                        <strong>Country:</strong> {val.country}
-                                    </div>
-                                    <div className={style.movieInfoPart}>
-                                        <strong>Rating:</strong> {val.rating} &#9734;
-                                    </div>
-                                </div>
-                            </div>
-                        </NavLink>
+        <div className={style.movieBlock} key={movie.id}>
+            <NavLink to={"/movieinfo/" + movie.id}>
+                <div className={style.moviePictureWrapper}>
+                    <div className={style.inlineDiv}>
+                        <img className={style.moviePicture} src={movie.poster} alt=""/>
                     </div>
-                )
-            })}
+                    <div className={style.inlineDiv + ' ' + style.movieInfo}>
+                        <h3 className={style.movieTitle}>
+                            {movie.title}
+                        </h3>
+                        <hr/>
+                        <div className={style.movieInfoPart}>
+                            <strong>Director:</strong> {movie.director}
+                        </div>
+                        <div className={style.movieInfoPart}>
+                            <strong>Year:</strong> {movie.released.slice(-4)}
+                        </div>
+                        <div className={style.movieInfoPart}>
+                            <strong>Country:</strong> {movie.country}
+                        </div>
+                        <div className={style.movieInfoPart}>
+                            <strong>Rating:</strong> {movie.rating} &#9734;
+                        </div>
+                    </div>
+                </div>
+            </NavLink>
         </div>
+
     );
 }
 
