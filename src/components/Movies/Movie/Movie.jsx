@@ -26,8 +26,8 @@ const Movie = ({movie}) => {
     };
 
     return (
-        <div className={style.movieBlock} key={movie.id}>
-            <NavLink to={"/movieinfo/" + movie.id}>
+        <div className={style.movieBlock} key={movie.movieId}>
+            <NavLink to={"/movieinfo/" + movie.movieId}>
                 <div className={style.moviePictureWrapper}>
                     <div className={style.inlineDiv}>
                         <img className={style.moviePicture} src={movie.poster} alt=""/>

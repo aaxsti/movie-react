@@ -20,7 +20,7 @@ const movieInfoReducer = (state = initialState, action) => {
 
 export const setMovieInfo = (movieInfo) => ({type: SET_MOVIE_INFO, movieInfo});
 
-export const getUserProfile = (movieId) => async (dispatch) => {
+export const getMovieInfo = (movieId) => async (dispatch) => {
     let response = await moviesAPI.getMovieInfo(movieId);
     dispatch(setMovieInfo(response.data));
 }

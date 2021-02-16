@@ -2,60 +2,66 @@ import React, {useState} from 'react';
 import style from './MovieInfo.module.css';
 import {Button} from "@material-ui/core";
 import MovieDataForm from "./MovieDataForm";
+import Preloader from "../common/Preloader/Preloader";
 
-const MovieInfo = (props) => {
-
+const MovieInfo = ({movieInfo}) => {
+    // console.log(movieInfo.co)
     let [editMode, setEditMode] = useState(false);
+
+    if (!movieInfo) {
+        return <Preloader/>
+    }
 
     return (
         <div>
+
             {editMode
-                ? <MovieDataForm/>
-                : <MovieData goToEditMode={() => {
+                ? <MovieDataForm movieInfo={movieInfo}/>
+                : <MovieData movieInfo={movieInfo} goToEditMode={() => {
                     setEditMode(true)
                 }}/>}
         </div>
     );
 }
 
-const MovieData = (props) => {
+const MovieData = ({movieInfo}) => {
     return (
         <div className={style.movieInfoWrapper}>
             <div className={style.movieInfoBlock}>
                 <div className={style.moviePictureWrapper}>
                     <div className={style.inlineDiv}>
                         <img className={style.moviePicture}
-                             src={'https://sun9-52.userapi.com/impg/npbO2jennMuYF8AJwoXWJz-3nnodqKnk4lXIZQ/s70BfOxgImk.jpg?size=940x942&quality=96&proxy=1&sign=e26cdb0dc4eeae86a9ccac9ee1afb108&type=album'}
-                             alt="Dogville"/>
+                             src={movieInfo?.poster}
+                             alt={movieInfo?.title}/>
                     </div>
                     <div className={style.inlineDiv + ' ' + style.movieInfo}>
                         <h3 className={style.movieTitle}>
-                            Dogville
+                            {movieInfo?.title}
                         </h3>
                         <hr/>
                         <div className={style.movieTagline}>
-                            A quiet little town not far from here
+                            {movieInfo?.tagline}
                         </div>
                         <div className={style.movieInfoPart}>
-                            <strong>Director:</strong> Lars von Trier
+                            <strong>Director:</strong> {movieInfo?.director}
                         </div>
                         <div className={style.movieInfoPart}>
-                            <strong>Released:</strong> 3 Jul 2003
+                            <strong>Released:</strong> {movieInfo?.released}
                         </div>
                         <div className={style.movieInfoPart}>
-                            <strong>Runtime:</strong> 178 min
+                            <strong>Runtime:</strong> {movieInfo?.runtime}
                         </div>
                         <div className={style.movieInfoPart}>
-                            <strong>Genre:</strong> Crime, Drama
+                            <strong>Genre:</strong> {movieInfo?.genre.join(', ')}
                         </div>
                         <div className={style.movieInfoPart}>
-                            <p><strong>Actors:</strong> Alain Delon, Renato Salvatori, Annie Girardot</p>
+                            <p><strong>Actors:</strong> {movieInfo?.actors.join(', ')}</p>
                         </div>
                         <div className={style.movieInfoPart}>
-                            <strong>Country:</strong> Denmark
+                            <strong>Country:</strong> {movieInfo?.country}
                         </div>
                         <div className={style.movieInfoPart}>
-                            <strong>Language:</strong> English
+                            <strong>Language:</strong> {movieInfo?.language}
                         </div>
                     </div>
                 </div>
@@ -64,14 +70,12 @@ const MovieData = (props) => {
                         <h4>Plot</h4>
                         <hr/>
                         <p>
-                            A woman on the run from the mob is reluctantly accepted in a small Colorado community in
-                            exchange for labor, but when
-                            a search visits the town she finds out that their support has a price.
+                            {movieInfo?.plot}
                         </p>
                         <hr/>
                     </div>
                     <div className={style.movieRating}>
-                        <strong>Rating:</strong> 8.0
+                        <strong>Rating:</strong> {movieInfo?.rating}
                     </div>
                 </div>
             </div>

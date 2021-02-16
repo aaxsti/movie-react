@@ -1,4 +1,4 @@
-import {applyMiddleware, combineReducers, createStore} from "redux";
+import {applyMiddleware, combineReducers, compose, createStore} from "redux";
 import moviesReducer from "./movies-reducer";
 import thunkMiddleware from "redux-thunk";
 import movieInfoReducer from "./movie-info-reducer";
@@ -8,7 +8,8 @@ let reducers = combineReducers({
     movieInfoPage: movieInfoReducer,
 });
 
-let store = createStore(reducers, applyMiddleware(thunkMiddleware));
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store = createStore(reducers, composeEnhancers(applyMiddleware(thunkMiddleware)));
 
 window.store = store;
 

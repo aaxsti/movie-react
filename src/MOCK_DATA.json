@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "MovieId": 1,
     "title": "Dogville",
     "released": "3 Jul 2003",
     "runtime": "178 min",
@@ -23,7 +23,7 @@
     "rating": "8.0"
   },
   {
-    "id": 2,
+    "MovieId": 2,
     "title": "Climax",
     "released": "11 Oct 2018",
     "runtime": "97 min",
@@ -47,7 +47,7 @@
     "rating": "7.1"
   },
   {
-    "id": 3,
+    "movieId": 3,
     "title": "High and Low",
     "released": "1 Mar 1963",
     "runtime": "143 min",
