@@ -1,9 +1,9 @@
 import React from 'react';
 import {connect} from "react-redux";
-import Movies from "./Movies";
 import {compose} from "redux";
-import {requestMovies} from "../../redux/movies-reducer";
+import {requestMovies} from "../../../../redux/movies-reducer";
 import {withRouter} from "react-router-dom";
+import TopTenMovies from "./TopTenMovies";
 
 class MoviesContainer extends React.Component {
 
@@ -13,7 +13,7 @@ class MoviesContainer extends React.Component {
 
     render() {
         return (
-            <Movies
+            <TopTenMovies
                 movies={this.props.movies}
             />
         )

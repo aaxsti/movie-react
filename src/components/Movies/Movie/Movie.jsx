@@ -1,30 +1,8 @@
-import React, {useState} from 'react';
-import Rating from '@material-ui/lab/Rating';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import JSON_DATA from "../../../MOCK_DATA.json";
+import React from 'react';
 import style from './SearchMovie.module.css';
 import {NavLink} from "react-router-dom";
 
-// MOVIES JSON
-let moviesArray = require("../../../MOCK_DATA.json");
-console.log(moviesArray);
-
-
 const Movie = ({movie}) => {
-
-    const [searchTerm, setSearchTerm] = useState('');
-    const [value, setValue] = useState(0);
-
-    // let parsedDate = new Date(props.premiereDate).toDateString().slice(3);
-    // let genres = JSON_DATA
-    // let joinedCastArray = JSON_DATA.actors.join(', ');
-
-    let addToFavourites = (values) => {
-        // props.addPost(values.newPostText);
-        console.log('Button pushed');
-    };
-
     return (
         <div className={style.movieBlock} key={movie.movieId}>
             <NavLink to={"/movieinfo/" + movie.movieId}>
@@ -41,7 +19,7 @@ const Movie = ({movie}) => {
                             <strong>Director:</strong> {movie.director}
                         </div>
                         <div className={style.movieInfoPart}>
-                            <strong>Year:</strong> {movie.released.slice(-4)}
+                            <strong>Year:</strong> {movie.released.substr(0,4)}
                         </div>
                         <div className={style.movieInfoPart}>
                             <strong>Country:</strong> {movie.country}
@@ -53,7 +31,6 @@ const Movie = ({movie}) => {
                 </div>
             </NavLink>
         </div>
-
     );
 }
 

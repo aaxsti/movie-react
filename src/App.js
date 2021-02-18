@@ -1,10 +1,10 @@
 import style from './App.module.css';
 import Navbar from "./components/Navbar/Navbar";
-import {Route} from "react-router-dom";
+import {Redirect, Route, Switch} from "react-router-dom";
 import Logo from "./components/Logo/Logo";
-import TopTenMovies from "./components/TopTen/TopTenMovies/TopTenMovies";
 import MoviesContainer from "./components/Movies/MoviesContainer";
 import MovieInfoContainer from "./components/MovieInfo/MovieInfoContainer";
+import TopTenMoviesContainer from "./components/Movies/TopTen/TopTenMovies/TopTenMoviesContainer";
 
 const App = () => {
     return (
@@ -13,10 +13,13 @@ const App = () => {
             <div className={style.mainWindow}>
                 <Navbar/>
                 <div className={style.content}>
-                    <Route path='/movieInfo/:movieId?' render={() => <MovieInfoContainer/>}/>
-                    <Route path='/movies' render={() => <MoviesContainer/>}/>
-                    <Route path='/top' render={() => <TopTenMovies/>}/>
-                    <Route path='/about' render={() => <div>About</div>}/>
+                    <Switch>
+                        <Route path='/movieInfo/:movieId?' render={() => <MovieInfoContainer/>}/>
+                        <Route path='/movies' render={() => <MoviesContainer/>}/>
+                        <Route path='/top' render={() => <TopTenMoviesContainer/>}/>
+                        <Route path='/about' render={() => <div>About</div>}/>
+                        <Redirect to="/movies"/>
+                    </Switch>
                 </div>
             </div>
         </div>

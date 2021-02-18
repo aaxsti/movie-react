@@ -1,43 +1,96 @@
 import {createField, Input, Textarea} from "../common/FormControls/FormControls";
-import s from "../common/FormControls/FormControls.module.css";
+import style from "../common/FormControls/FormControls.module.css";
+import {Button} from "@material-ui/core";
+import {reduxForm} from "redux-form";
+import React from "react";
 
-const MovieDataForm = ({handleSubmit, profile, error}) => {
+const MovieDataForm = ({handleSubmit, movieInfo, error}) => {
     return (
-        <form onSubmit={handleSubmit}>
-            <div>
-                <button onClick={() => {}}>Save</button>
-            </div>
-            {error &&
-            <div className={s.formSummeryError}>
-                {error}
-            </div>}
-            <div>
+        <div className={style.formWrapper}>
+            <form onSubmit={handleSubmit}>
+                {error &&
                 <div>
-                    <b>Full name</b>
-                    {createField("Full name", "fullName", [], Input)}
-                </div>
-                <div>
-                    <b>Looking for a job</b>
-                    {createField("", "lookingForAJob", [], Input, {type: "checkbox"})}
-                </div>
-                <div>
-                    <b>My professional skills</b>
-                    {createField("My professional skills", "lookingForAJobDescription", [], Textarea)}
-                </div>
-                <div>
-                    <b>About me:</b>
-                    {createField("About me", "aboutMe", [], Textarea)}
-                </div>
-                <div>
-                    <b>Contacts:</b> {Object.keys(profile.contacts).map(key => {
-                    return <div key={key} className={s.contact}>
-                        <b>{key}: {createField(key, "contacts." + key, [], Input)}</b>
+                    {error}
+                </div>}
+                <div className={style.formMovieInfoBlock}>
+
+                    <img className={style.formMoviePicture}
+                         src={movieInfo?.poster}
+                         alt={movieInfo?.title}/>
+
+                    <div className={style.rightFormBlock}>
+                        <div>
+                            Title
+                            {createField("Title", "title", [], Input)}
+                        </div>
+                        <div>
+                            Tagline
+                            {createField("Tagline", "tagline", [], Textarea)}
+                        </div>
+                        <div>
+                            Director
+                            {createField("Director", "director", [], Input)}
+                        </div>
+                        <div>
+                            Release date
+                            {createField("", "releaseDate", [], Input, {type: "date"})}
+                        </div>
                     </div>
-                })}
+
+                    <div className={style.secondFormBlock}>
+                        <div>
+                            Runtime (min)
+                            {createField("Runtime (min)", "runtime", [], Input, {type: "number"})}
+                        </div>
+                        <div className={style.genre}>
+                            Genre
+                            {createField("Genre", "genre", [], Input)}
+                        </div>
+                    </div>
+
+                    <div className={style.thirdFormBlock}>
+
+                        <strong>Actors</strong>
+                        <div className={style.actors}>
+                            {Object.keys(movieInfo.actors).map(key => {
+                            return <div key={key}>
+                                {(key[0].toUpperCase() + key.substring(1)).replace('r', 'r ')}
+                                {createField(key, "actors." + key, [], Input)}
+                            </div>
+                        })}
+                        </div>
+                        <div>
+                            Country
+                            {createField("Country", "country", [], Input)}
+                        </div>
+                        <div>
+                            Language
+                            {createField("Language", "language", [], Input)}
+                        </div>
+                        <div className={style.plot}>
+                            Plot
+                            {createField("Plot", "plot", [], Textarea)}
+                        </div>
+                        <div>
+                            Awards
+                            {createField("Awards", "awards", [], Textarea)}
+                        </div>
+                        <div>
+                            Rating
+                            {createField("Rating", "rating", [], Input)}
+                        </div>
+
+                        <div className={style.buttonWrapper}>
+                            <Button variant="contained" onClick={() => {
+                            }}>Save</Button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     )
 }
 
-export default MovieDataForm;
+const MovieDataFormReduxForm = reduxForm({form: 'edit-movie-info'})(MovieDataForm);
+
+export default MovieDataFormReduxForm;

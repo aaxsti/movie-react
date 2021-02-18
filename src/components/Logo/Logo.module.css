@@ -25,6 +25,7 @@
 .logo {
     display: inline-block;
     vertical-align: middle;
+    font-weight: lighter;
 }
 
 .logo:hover {

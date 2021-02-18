@@ -13,13 +13,10 @@ export const moviesAPI = {
     },
 
     getMovieInfo(movieId) {
-        // console.warn('Obsolete method. Please profileAPI object');
-        return movieInfoAPI.getMovieInfo(movieId);
-    }
-};
-
-export const movieInfoAPI = {
-    getMovieInfo(movieId) {
         return instance.get(`films/${movieId}`);
     },
-}
+
+    saveMovieInfo(movieInfo) {
+        return instance.put(`movieinfo`, movieInfo);
+    }
+};

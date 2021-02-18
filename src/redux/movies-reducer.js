@@ -20,6 +20,7 @@ export const setMovies = (movies) => ({type: SET_MOVIES, movies});
 export const requestMovies = () => async (dispatch) => {
     let data = await moviesAPI.getMovies();
     dispatch(setMovies(data));
+    console.log(data)
 }
 
 export default moviesReducer;

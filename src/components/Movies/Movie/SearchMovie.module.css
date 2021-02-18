@@ -46,10 +46,13 @@ hr {
     border-radius: 3px;
 }
 
-.movieTitle {
+.movieInfoPart strong {
     color: #3a3a3a;
+}
+
+.movieTitle {
     padding: 0;
-    font-weight: bold;
+    font-weight: lighter;
     margin: 0;
 }
 

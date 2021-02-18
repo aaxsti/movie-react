@@ -5,7 +5,6 @@ import MovieDataForm from "./MovieDataForm";
 import Preloader from "../common/Preloader/Preloader";
 
 const MovieInfo = ({movieInfo}) => {
-    // console.log(movieInfo.co)
     let [editMode, setEditMode] = useState(false);
 
     if (!movieInfo) {
@@ -24,7 +23,7 @@ const MovieInfo = ({movieInfo}) => {
     );
 }
 
-const MovieData = ({movieInfo}) => {
+const MovieData = ({movieInfo, goToEditMode}) => {
     return (
         <div className={style.movieInfoWrapper}>
             <div className={style.movieInfoBlock}>
@@ -42,26 +41,30 @@ const MovieData = ({movieInfo}) => {
                         <div className={style.movieTagline}>
                             {movieInfo?.tagline}
                         </div>
+                        <hr/>
                         <div className={style.movieInfoPart}>
                             <strong>Director:</strong> {movieInfo?.director}
                         </div>
                         <div className={style.movieInfoPart}>
-                            <strong>Released:</strong> {movieInfo?.released}
+                            <strong>Released:</strong> {movieInfo?.released.substr(0,10)}
                         </div>
                         <div className={style.movieInfoPart}>
-                            <strong>Runtime:</strong> {movieInfo?.runtime}
+                            <strong>Runtime:</strong> {movieInfo?.runtime} min
                         </div>
                         <div className={style.movieInfoPart}>
-                            <strong>Genre:</strong> {movieInfo?.genre.join(', ')}
+                            <strong>Genre:</strong> {movieInfo?.genre}
                         </div>
                         <div className={style.movieInfoPart}>
-                            <p><strong>Actors:</strong> {movieInfo?.actors.join(', ')}</p>
+                            <p><strong>Actors:</strong> {Object.values(movieInfo?.actors).join(', ')}</p>
                         </div>
                         <div className={style.movieInfoPart}>
                             <strong>Country:</strong> {movieInfo?.country}
                         </div>
                         <div className={style.movieInfoPart}>
                             <strong>Language:</strong> {movieInfo?.language}
+                        </div>
+                        <div className={style.movieInfoPart}>
+                            <strong>Awards:</strong> {movieInfo?.awards}
                         </div>
                     </div>
                 </div>
@@ -80,9 +83,7 @@ const MovieData = ({movieInfo}) => {
                 </div>
             </div>
             <div className={style.editFormButtonWrapper}>
-                <Button variant="outlined" onClick={() => {
-                    alert(1)
-                }} size={"small"}>Edit</Button>
+                <Button variant="outlined" onClick={goToEditMode} size={"small"}>Edit</Button>
             </div>
         </div>
     )

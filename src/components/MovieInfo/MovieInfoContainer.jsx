@@ -1,7 +1,7 @@
 import React from 'react';
 import {withRouter} from "react-router-dom";
 import MovieInfo from "./MovieInfo";
-import {getMovieInfo} from "../../redux/movie-info-reducer";
+import {getMovieInfo, saveMovieInfo} from "../../redux/movie-info-reducer";
 import {connect} from "react-redux";
 import {compose} from "redux";
 
@@ -9,7 +9,6 @@ class MovieInfoContainer extends React.Component {
 
     refreshMovieInfo() {
         let movieId = this.props.match.params.movieId;
-        console.log('REFRESH: ', movieId);
         this.props.getMovieInfo(movieId);
     }
 
@@ -41,6 +40,6 @@ let mapStateToProps = (state) => {
 }
 
 export default compose(
-    connect(mapStateToProps, {getMovieInfo}),
+    connect(mapStateToProps, {getMovieInfo, saveMovieInfo}),
     withRouter
 )(MovieInfoContainer);

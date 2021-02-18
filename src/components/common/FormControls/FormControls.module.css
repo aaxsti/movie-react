@@ -14,3 +14,87 @@
     padding: 5px;
     color: red;
 }
+
+.formWrapper {
+    font-size: 15px;
+}
+
+.rightFormBlock {
+    float: right;
+    padding-right: 120px;
+}
+
+.secondFormBlock {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.thirdFormBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdFormBlock {
+    padding-bottom: 10px;
+}
+
+.genre {
+    padding-left: 28px;
+}
+
+.actors {
+
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+}
+
+.fieldStyle {
+    font-size: 15px;
+    outline: none;
+    padding: 5px 0 0 5px;
+    /*text-align: center;*/
+    transition: 0.3s;
+    background-color: #DFDFDF;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-bottom: #a9b5b5 2px solid;
+
+}
+
+.fieldStyle:focus {
+    transition: 0.3s;
+    background-color: white;
+}
+
+.textarea {
+    resize: none;
+}
+
+.formMoviePicture {
+    height: 310px;
+    border-radius: 3px;
+}
+
+.inlineDiv {
+    float: left;
+
+}
+
+.formMovieInfoBlock {
+    margin-left: 60px;
+    width: 760px;
+    margin-top: 30px;
+    /*overflow: hidden;*/
+}
+
+.buttonWrapper {
+    padding-top: 20px;
+}
