@@ -1,0 +1,18 @@
+.topMoviesHeader {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.topMovieNumber {
+    color: #545d5e;
+    font-weight: lighter;
+    margin: 0;
+    display: inline-block;
+    padding: 5px 0 5px 45px;
+    border-bottom: 1px #d2202f solid;
+}
+
+.tenNumberHeader {
+    color: #545d5e;
+}

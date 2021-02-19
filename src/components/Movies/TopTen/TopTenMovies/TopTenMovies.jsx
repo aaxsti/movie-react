@@ -1,6 +1,7 @@
 import React from 'react';
 import Movie from "../../Movie/Movie";
 import Preloader from "../../../common/Preloader/Preloader";
+import style from "./TopTenMovies.module.css"
 
 const TopTenMovies = ({movies}) => {
 
@@ -10,16 +11,15 @@ const TopTenMovies = ({movies}) => {
 
     return (
         <div>
-            <div>
-                <h2>Top Movies</h2>
-            </div>
+            <h3 className={style.topMoviesHeader}>Top <span className={style.tenNumberHeader}>10</span> Movies</h3>
+            {/*<hr className={style.searchLine}/>*/}
             <div>
                 {movies
                     .sort((a, b) => {
                         return b.rating.localeCompare(a.rating)
                     })
-                    .slice()
-                    .map(m => <Movie movie={m} key={m.id}/>)
+                    .slice(0, 10)
+                    .map((m, i) => <div><hr/><h2 className={style.topMovieNumber}>{++i} &nbsp;</h2><Movie movie={m} key={m.id}/><br/><br/><br/></div>)
                 }
             </div>
         </div>

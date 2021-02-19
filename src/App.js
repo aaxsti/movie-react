@@ -5,6 +5,7 @@ import Logo from "./components/Logo/Logo";
 import MoviesContainer from "./components/Movies/MoviesContainer";
 import MovieInfoContainer from "./components/MovieInfo/MovieInfoContainer";
 import TopTenMoviesContainer from "./components/Movies/TopTen/TopTenMovies/TopTenMoviesContainer";
+import About from "./components/About/About";
 
 const App = () => {
     return (
@@ -17,7 +18,7 @@ const App = () => {
                         <Route path='/movieInfo/:movieId?' render={() => <MovieInfoContainer/>}/>
                         <Route path='/movies' render={() => <MoviesContainer/>}/>
                         <Route path='/top' render={() => <TopTenMoviesContainer/>}/>
-                        <Route path='/about' render={() => <div>About</div>}/>
+                        <Route path='/about' render={() => <About/>}/>
                         <Redirect to="/movies"/>
                     </Switch>
                 </div>

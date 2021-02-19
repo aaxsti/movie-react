@@ -9,7 +9,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    /*border-radius: 3px;*/
+    font-size: 18px;
 }
 
 .navbarMenu ul {
@@ -28,12 +28,10 @@
 .navbarMenu ul li a {
     text-decoration: none;
     color: black;
-    /*font-weight: bold;*/
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 1px;
-
     transition: background-size .1s;
 }
 
@@ -44,6 +42,7 @@
 .navbarMenu ul li a.activeLink {
     outline: none;
     background-size: 100% 1px;
+    /*color: #3a3a3a;*/
 }
 
 .navbarMenu ul li a:focus {

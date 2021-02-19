@@ -1,12 +1,11 @@
 .formControl.error input,
-.formControl.error textarea
-{
-    border: solid red 2px;
+.formControl.error textarea {
+    background-color: #ff8d8d;
 }
 
-.formControl.error span
-{
-    color: red;
+.formControl.error span {
+    color: #ff4e4e;
+    float: right;
 }
 
 .formSummeryError {
@@ -34,18 +33,17 @@
 .thirdFormBlock {
     display: flex;
     flex-direction: column;
-}
-
-.thirdFormBlock {
     padding-bottom: 10px;
 }
 
-.genre {
+.formPartMargin {
     padding-left: 28px;
 }
 
-.actors {
-
+.flexWrapBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .input {
@@ -58,7 +56,7 @@
 .fieldStyle {
     font-size: 15px;
     outline: none;
-    padding: 5px 0 0 5px;
+    padding: 5px 5px 0 5px;
     /*text-align: center;*/
     transition: 0.3s;
     background-color: #DFDFDF;
@@ -85,7 +83,6 @@
 
 .inlineDiv {
     float: left;
-
 }
 
 .formMovieInfoBlock {
@@ -97,4 +94,6 @@
 
 .buttonWrapper {
     padding-top: 20px;
+    float: right;
+    /*margin: 0 auto;*/
 }
