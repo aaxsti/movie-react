@@ -1,6 +1,5 @@
 import {createField, Input, Textarea} from "../common/FormControls/FormControls";
 import style from "../common/FormControls/FormControls.module.css";
-import {Button} from "@material-ui/core";
 import {reduxForm} from "redux-form";
 import React from "react";
 import {maxLengthCreator, required} from "../../utils/validators";
@@ -41,7 +40,7 @@ const MovieDataForm = ({handleSubmit, movieInfo, error}) => {
                         </div>
                         <div>
                             Release date
-                            {createField("", "releaseDate", [required], Input, {type: "date"})}
+                            {createField("", "released", [required], Input, {type: "date"})}
                         </div>
                     </div>
 
@@ -98,8 +97,7 @@ const MovieDataForm = ({handleSubmit, movieInfo, error}) => {
                         </div>
 
                         <div className={style.buttonWrapper}>
-                            <Button variant="contained" onClick={() => {
-                            }}>Save</Button>
+                            <button onClick={() => {}}>Save</button>
                         </div>
 
                     </div>

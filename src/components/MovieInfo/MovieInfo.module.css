@@ -74,3 +74,20 @@ p {
     padding-top: 10px;
     padding-right: 100px;
 }
+
+.editFormButtonWrapper button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    width: 80px;
+    height: 35px;
+    background-color: #DFDFDF;
+    border-radius: 3px;
+    border: #a9b5b5 2px solid;
+    outline: none;
+}
+
+.editFormButtonWrapper button:hover {
+    transition: 0.3s;
+    background-color: white;
+    border: #838d8d 2px solid;
+}

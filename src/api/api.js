@@ -17,6 +17,6 @@ export const moviesAPI = {
     },
 
     saveMovieInfo(movieInfo) {
-        return instance.put(`movieinfo`, movieInfo);
+        return instance.put(`films/${movieInfo.movieId}`, movieInfo);
     }
 };

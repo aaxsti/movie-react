@@ -1,21 +1,28 @@
 import React, {useState} from 'react';
 import style from './MovieInfo.module.css';
-import {Button} from "@material-ui/core";
 import MovieDataForm from "./MovieDataForm";
 import Preloader from "../common/Preloader/Preloader";
 
-const MovieInfo = ({movieInfo}) => {
+const MovieInfo = ({movieInfo, saveMovieInfo}) => {
     let [editMode, setEditMode] = useState(false);
 
     if (!movieInfo) {
         return <Preloader/>
     }
 
+    const onSubmit = (formData) => {
+        saveMovieInfo(formData);
+        setEditMode(false);
+    }
+
+    movieInfo = {
+        ...movieInfo, released : new Date(movieInfo.released).toISOString().substring(0,10)
+    }
+
     return (
         <div>
-
             {editMode
-                ? <MovieDataForm movieInfo={movieInfo}/>
+                ? <MovieDataForm movieInfo={movieInfo} initialValues={movieInfo} onSubmit={onSubmit}/>
                 : <MovieData movieInfo={movieInfo} goToEditMode={() => {
                     setEditMode(true)
                 }}/>}
@@ -24,6 +31,7 @@ const MovieInfo = ({movieInfo}) => {
 }
 
 const MovieData = ({movieInfo, goToEditMode}) => {
+    console.log(movieInfo)
     return (
         <div className={style.movieInfoWrapper}>
             <div className={style.movieInfoBlock}>
@@ -46,7 +54,7 @@ const MovieData = ({movieInfo, goToEditMode}) => {
                             <strong>Director:</strong> {movieInfo?.director}
                         </div>
                         <div className={style.movieInfoPart}>
-                            <strong>Released:</strong> {movieInfo?.released.substr(0,10)}
+                            <strong>Released:</strong> {new Date(movieInfo?.released).toLocaleDateString()}
                         </div>
                         <div className={style.movieInfoPart}>
                             <strong>Runtime:</strong> {movieInfo?.runtime} min
@@ -83,7 +91,7 @@ const MovieData = ({movieInfo, goToEditMode}) => {
                 </div>
             </div>
             <div className={style.editFormButtonWrapper}>
-                <Button variant="outlined" onClick={goToEditMode} size={"small"}>Edit</Button>
+                <button onClick={goToEditMode}>Edit</button>
             </div>
         </div>
     )

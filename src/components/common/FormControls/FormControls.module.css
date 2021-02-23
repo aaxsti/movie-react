@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 .formControl.error input,
 .formControl.error textarea {
     background-color: #ff8d8d;
@@ -96,4 +98,21 @@
     padding-top: 20px;
     float: right;
     /*margin: 0 auto;*/
+}
+
+.buttonWrapper button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    width: 80px;
+    height: 35px;
+    background-color: #DFDFDF;
+    border-radius: 3px;
+    border: #a9b5b5 2px solid;
+    outline: none;
+}
+
+.buttonWrapper button:hover {
+    transition: 0.3s;
+    background-color: white;
+    border: #838d8d 2px solid;
 }

@@ -19,7 +19,7 @@ const Movie = ({movie}) => {
                             <strong>Director:</strong> {movie.director}
                         </div>
                         <div className={style.movieInfoPart}>
-                            <strong>Year:</strong> {movie.released.substr(0,4)}
+                            <strong>Year:</strong> { movie.released.substr(11, 4)}
                         </div>
                         <div className={style.movieInfoPart}>
                             <strong>Country:</strong> {movie.country}
