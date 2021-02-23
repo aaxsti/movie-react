@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/movie-react/static/css/main.e33ac5dd.chunk.css",
-    "main.js": "/movie-react/static/js/main.f6b62a19.chunk.js",
-    "main.js.map": "/movie-react/static/js/main.f6b62a19.chunk.js.map",
-    "runtime-main.js": "/movie-react/static/js/runtime-main.1eb9d764.js",
-    "runtime-main.js.map": "/movie-react/static/js/runtime-main.1eb9d764.js.map",
-    "static/js/2.ebdd4263.chunk.js": "/movie-react/static/js/2.ebdd4263.chunk.js",
-    "static/js/2.ebdd4263.chunk.js.map": "/movie-react/static/js/2.ebdd4263.chunk.js.map",
-    "static/js/3.9516195d.chunk.js": "/movie-react/static/js/3.9516195d.chunk.js",
-    "static/js/3.9516195d.chunk.js.map": "/movie-react/static/js/3.9516195d.chunk.js.map",
+    "main.css": "/movie-react/static/css/main.bd397f30.chunk.css",
+    "main.js": "/movie-react/static/js/main.357f2106.chunk.js",
+    "main.js.map": "/movie-react/static/js/main.357f2106.chunk.js.map",
+    "runtime-main.js": "/movie-react/static/js/runtime-main.c6cdf338.js",
+    "runtime-main.js.map": "/movie-react/static/js/runtime-main.c6cdf338.js.map",
+    "static/js/2.41250b05.chunk.js": "/movie-react/static/js/2.41250b05.chunk.js",
+    "static/js/2.41250b05.chunk.js.map": "/movie-react/static/js/2.41250b05.chunk.js.map",
+    "static/js/3.c0cd8177.chunk.js": "/movie-react/static/js/3.c0cd8177.chunk.js",
+    "static/js/3.c0cd8177.chunk.js.map": "/movie-react/static/js/3.c0cd8177.chunk.js.map",
     "index.html": "/movie-react/index.html",
-    "static/css/main.e33ac5dd.chunk.css.map": "/movie-react/static/css/main.e33ac5dd.chunk.css.map",
-    "static/js/2.ebdd4263.chunk.js.LICENSE.txt": "/movie-react/static/js/2.ebdd4263.chunk.js.LICENSE.txt",
-    "static/media/preloader.1fa6880e.svg": "/movie-react/static/media/preloader.1fa6880e.svg"
+    "static/css/main.bd397f30.chunk.css.map": "/movie-react/static/css/main.bd397f30.chunk.css.map",
+    "static/js/2.41250b05.chunk.js.LICENSE.txt": "/movie-react/static/js/2.41250b05.chunk.js.LICENSE.txt",
+    "static/media/github.dccdb3f7.svg": "/movie-react/static/media/github.dccdb3f7.svg",
+    "static/media/gmail.cac56223.svg": "/movie-react/static/media/gmail.cac56223.svg",
+    "static/media/linkedin.f05ed6fc.svg": "/movie-react/static/media/linkedin.f05ed6fc.svg",
+    "static/media/preloader.1fa6880e.svg": "/movie-react/static/media/preloader.1fa6880e.svg",
+    "static/media/telegram.5abe7b63.svg": "/movie-react/static/media/telegram.5abe7b63.svg",
+    "static/media/vkontakte.f562926c.svg": "/movie-react/static/media/vkontakte.f562926c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1eb9d764.js",
-    "static/js/2.ebdd4263.chunk.js",
-    "static/css/main.e33ac5dd.chunk.css",
-    "static/js/main.f6b62a19.chunk.js"
+    "static/js/runtime-main.c6cdf338.js",
+    "static/js/2.41250b05.chunk.js",
+    "static/css/main.bd397f30.chunk.css",
+    "static/js/main.357f2106.chunk.js"
   ]
 }
