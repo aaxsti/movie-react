@@ -12,7 +12,6 @@ const TopTenMovies = ({movies}) => {
     return (
         <div>
             <h3 className={style.topMoviesHeader}>Top <span className={style.tenNumberHeader}>10</span> Movies</h3>
-            {/*<hr className={style.searchLine}/>*/}
             <div>
                 {movies
                     .sort((a, b) => {

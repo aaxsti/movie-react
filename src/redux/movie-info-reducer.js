@@ -1,5 +1,4 @@
 import {moviesAPI} from "../api/api";
-import {stopSubmit} from "redux-form";
 import {setNewMovie} from "./movies-reducer";
 
 const SET_MOVIE_INFO = 'SET_MOVIE_INFO';
@@ -33,7 +32,6 @@ export const saveMovieInfo = (movieInfo) => async (dispatch) => {
     const response = await moviesAPI.saveMovieInfo(movieInfo);
     dispatch(setMovieInfo(response.data))
     dispatch(setNewMovie(response.data))
-
 }
 
 export default movieInfoReducer;
