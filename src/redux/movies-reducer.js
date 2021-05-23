@@ -5,7 +5,7 @@ const SET_NEW_MOVIE = 'SET_NEW_MOVIE';
 
 let initialState = {
     movies: []
-};
+}
 
 const updateMovie = (movies, movie) => {
     const movieIndex = movies.findIndex(movieToFind => movieToFind.id === movie.id);
